@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding= "16dp"
+    android:scaleType= "center"
+    android:layout_centerInParent="true">
+
+    <Button
+        android:id="@+id/addition"
+        android:layout_width="750px"
+        android:layout_height="150px"
+        android:text="@string/addition"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="@color/material_blue_grey_800"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/addition"/>
+
+    <Button
+        android:id="@+id/subtraction"
+        android:layout_width="750px"
+        android:layout_height="150px"
+        android:text="@string/subtraction"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="@color/material_blue_grey_800"
+        android:layout_below="@+id/addition"
+        android:layout_alignLeft="@+id/addition"
+        android:layout_alignStart="@+id/addition"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/subtraction"/>
+
+    <Button
+        android:id="@+id/multiplication"
+        android:layout_width="750px"
+        android:layout_height="150px"
+        android:text="@string/multiplication"
+        android:textSize="30sp"
+        android:textColor="#fff"
+        android:background="@color/material_blue_grey_800"
+        android:layout_below="@+id/subtraction"
+        android:layout_alignLeft="@+id/subtraction"
+        android:contentDescription="@string/multiplication"
+        />
+
+</RelativeLayout>

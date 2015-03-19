@@ -1,0 +1,39 @@
+<resources>
+    <!-- Holds all the string values for questions, answer choices, toasts and buttons-->
+
+    <string name="app_name">BrailleAndMath</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+
+    <string name="instructions">INSTRUCTIONS</string>
+    <string name="numbers">NUMBERS</string>
+    <string name="math">MATH</string>
+
+    <string name="instruction_text">Welcome to Braille and Math! You can learn how to read and write numbers in braille. The ‘NUMBERS’ tab, will help teach you the 0-9 braille characters via a set of flashcards. Once you feel that you are ready, go ahead and click on the ‘MATH’ tab to play some math games. </string>
+    <string name="addition">ADDITION</string>
+    <string name="subtraction">SUBTRACTION</string>
+    <string name="multiplication">MULTIPLICATION</string>
+
+    <string name="next">NEXT</string>
+    <string name="previous">PREVIOUS</string>
+    <string name="braille">BRAILLE</string>
+    <string name="back">BACK</string>
+
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="braille_dot">⋅</string>
+    <string name="gameinstruction">Assume there is a braille number sign when you input your answer.</string>
+    <string name="correct_toast">Correct!</string>
+    <string name="incorrect_toast">Incorrect!</string>
+
+
+</resources>
